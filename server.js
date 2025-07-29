@@ -3,7 +3,7 @@ const express= require('express');
 const app = express();
 const cookieParser=require('cookie-parser');
 
-const db=require('./config/mongoose-connectionn');
+const db=require('./config/mongoose-connection');
 //for frontend files
 const path = require('path');
 //

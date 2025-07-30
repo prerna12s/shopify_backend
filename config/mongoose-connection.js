@@ -1,9 +1,11 @@
 const mongoose = require('mongoose');
+const dbgr=require('debug')("development:mongoose-connection");
+
 
 mongoose.connect('mongodb://localhost:27017/shopify')
-.then(()=>console.log('connected to database'))
+.then(()=>dbgr('connected to database'))
 .catch((err) => {
-    console.error('Database connection error:', err);
+    dbgr('Database connection error:', err);
 });
-//kya variable us nhi ke sakte?
+//kya variable us nhi ke saath use kar sakte?
 module.exports=mongoose.connection;

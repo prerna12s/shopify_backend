@@ -103,7 +103,7 @@ This project is licensed under the [MIT License](LICENSE).
 
 ## 🌐 Links
 
-- [Frontend Repository (if available)](https://github.com/yourusername/shopify-frontend)
+- [Frontend Repository ](https://github.com/prerna12s/shopify)
 
 ---
 
